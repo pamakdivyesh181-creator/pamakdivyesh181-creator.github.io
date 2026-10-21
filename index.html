@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Divyesh Pamak's portfolio in AI, robotics, Python and web development.">
+  <title>Divyesh Pamak | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: #080d19;
+      color: #f1f5f9;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+    header, section, footer {
+      width: min(100% - 36px, 960px);
+      margin: auto;
+    }
+    header { padding-top: 24px; }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    nav a, a { color: #8bbcff; }
+    nav a { text-decoration: none; margin-left: 12px; }
+    .logo { font-weight: bold; color: white; }
+    .hero { padding: 90px 0 65px; }
+    .tag { color: #8bbcff; letter-spacing: 2px; }
+    h1 {
+      font-size: clamp(42px, 9vw, 76px);
+      line-height: 1.1;
+      margin: 16px 0;
+    }
+    h2 { color: #8bbcff; }
+    .intro { max-width: 650px; color: #c3cde0; }
+    .button {
+      display: inline-block;
+      margin: 12px 8px 0 0;
+      padding: 11px 18px;
+      border-radius: 9px;
+      background: #2859c5;
+      color: white;
+      text-decoration: none;
+    }
+    section { padding: 28px 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #111a2c;
+      border: 1px solid #25334d;
+      border-radius: 15px;
+      padding: 20px;
+    }
+    .card h3 { margin-top: 0; }
+    .muted { color: #b7c2d5; }
+    .skill {
+      display: inline-block;
+      padding: 7px 12px;
+      margin: 5px;
+      background: #172642;
+      border-radius: 20px;
+      color: #c6dcff;
+    }
+    footer {
+      border-top: 1px solid #25334d;
+      padding: 25px 0;
+      color: #b7c2d5;
+    }
+    @media (max-width: 500px) {
+      nav a { margin-left: 5px; font-size: 14px; }
+      .hero { padding-top: 60px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <span class="logo">DIVYESH PAMAK</span>
+      <span>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </span>
+    </nav>
+
+    <div class="hero">
+      <p class="tag">IT DIPLOMA STUDENT | TECH ENTHUSIAST</p>
+      <h1>Exploring AI.<br>Building the future.</h1>
+      <p class="intro">
+        Hello! I am Divyesh Pamak, an IT diploma student
+        interested in Artificial Intelligence, Robotics,
+        Automation and Web Development. I enjoy learning
+        new technologies and building practical projects.
+      </p>
+      <a class="button" href="#projects">Explore My Work ↓</a>
+      <a class="button" href="#contact">Contact Me</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p class="muted">
+        I am currently pursuing a Diploma in Information
+        Technology. My interests include robotics,
+        programming, AI tools and automation. My goal is
+        to strengthen my technical skills by building
+        projects and solving real-world problems.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+      <span class="skill">Python</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">AI Tools</span>
+      <span class="skill">Robotics</span>
+      <span class="skill">Automation</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>🤖 Line-Following Robot</h3>
+        <p class="muted">
+          A robotics project involving line sensors,
+          motor control and robot navigation.
+        </p>
+        <p><strong>Status:</strong> In progress</p>
+      </article>
+
+      <article class="card">
+        <h3>🧠 AI Study Assistant</h3>
+        <p class="muted">
+          A concept for helping students understand
+          documents and prepare revision questions with AI.
+        </p>
+        <p><strong>Status:</strong> Idea / development</p>
+      </article>
+
+      <article class="card">
+        <h3>💻 Resume Builder</h3>
+        <p class="muted">
+          A web project for creating and presenting
+          professional resumes.
+        </p>
+        <p><strong>Status:</strong> Update with actual progress</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="goals">
+    <h2>My Goals</h2>
+    <div class="card">
+      <p class="muted">
+        Learn continuously, improve my programming skills,
+        explore robotics and AI, and build useful technology
+        projects that make a difference.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Let's Connect</h2>
+    <div class="card">
+      <p class="muted">
+        I am interested in learning, technology and
+        collaborating on interesting projects.
+      </p>
+      <a href="https://github.com/pamakdivyesh181-creator">
+        GitHub Profile
+      </a>
+      <p>Add your LinkedIn profile link when ready.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Divyesh Pamak. Built with HTML and CSS.</p>
+  </footer>
+</body>
+</html>
